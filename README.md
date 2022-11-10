@@ -1,8 +1,4 @@
-# Librería DLS de Componentes
-
-Esta librería permite la construcción de los compontentes del sistema de diseño basados en Kotlin 
-
-# Proyecto de ejemplo de DLS
+# Proyecto de ejemplo de DLS Android
 
 Este proyecto muestra la integración de la librería que contiene el DLS dentro del proyecto y su utilización.
 
