@@ -1,22 +1,26 @@
-# Proyecto de ejemplo de DLS Android
+<h1>DLS Android sample project</h1>
 
-Este proyecto muestra la integración de la librería que contiene el DLS dentro del proyecto y su utilización.
+This project shows the integration of the library that contains the DLS within the project and its use.
 
-****Recomendaciones:
+<h3>Recommendations:</h3>
+<ul>
+<li>Associate source code repository before downloading the app from VCS option:</li>
+<ul>
+<li>Enable Version Control Integration</li>
+</ul>
+<li>If you do not have a physical device, you can configure a virtual device that supports at least API 30 or higher.</li>
 
--Asociar repositorio de código fuente antes de la descarga de la app desde la opción VCS: -> Enable Version Control Integration
+<li>Consider having the latest Android Studio update</li>
+</ul>
 
--En caso de no contar con un dispositivo físico puede configurar un dispositivo virtual que soporte al menos un API 30 o superior.
-
--Considerar tener la última actualización de Android Studio
-
-****Instalación
-
-1.- Descargar el proyecto de repostitorio
-2.- Realizar la sincronización a través de Gradle (puede tardar varios minutos)
-3.- Agregar la dependecia de la librería en el archivo Gradle (app):
+<h3>Software installation</h3>
+<ol>
+<li>Download the repository project</li>
+<li>Perform sync via Gradle (may take several minutes)</li>
+<li>Add the library dependency in the Gradle file (app):</li>
               implementation files('../libs/library.aar')
-4.- Una vez realizada esta acción es necesario volver a realizar la sincronización del proyecto
-5.- Ejecutar el proyecto ya sea con un dispositivo físico o virtual
+<li>Once this action is done, it is necessary to syncronized the project again.</li>
+<li>Run the project with either a physical or virtual device</li>
+</ol>
 
-NOTA: Cada vez que se actualice la librería se requiere actualizar el archivo en la ruta indicada para obtener los nuevos cambios.
+NOTE: Every time the library is updated, it is required to update the file in the indicated path to obtain the new changes.
